@@ -11,8 +11,11 @@ const Home = () => {
   return (
     <C.Container>
       <C.Title>Home</C.Title>
-      <Button Text="Sair" onClick={() => [signout(), navigate("/")]}>
-        Sair
+
+      
+      
+      <Button Text="Salir" onClick={() => [signout(), navigate("/")]}>
+        Salir
       </Button>
     </C.Container>
   );
